@@ -9,3 +9,9 @@ docker run --name classifier1 -p 8000:8000 ml-classifier
 ```
 - **demo**
 ![alt text](test/demo1.png)
+
+**Reach out**
+```
+http://localhost:8000/doc
+```
+![alt text](test/demo2.png)
