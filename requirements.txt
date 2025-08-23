@@ -1,0 +1,6 @@
+torch==2.6.0
+torchvision==0.21.0
+matplotlib==3.8.4
+numpy==1.26.4
+Pillow==10.4.0
+fastapi==0.115.12
