@@ -35,10 +35,11 @@ kubectl apply -f cnn-service.yaml
 minikube service cnn-fastapi-service
 ```
 Show following on terminal
+```
 |-----------|---------------------|-------------|---------------------------|
 | NAMESPACE |        NAME         | TARGET PORT |            URL            |
 |-----------|---------------------|-------------|---------------------------|
 | default   | cnn-fastapi-service |          80 | http://192.168.49.2:30007 |
 |-----------|---------------------|-------------|---------------------------|
 🎉  Opening service default/cnn-fastapi-service in default browser...
-
+```
