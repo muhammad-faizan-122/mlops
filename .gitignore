@@ -6,3 +6,6 @@ data/
 
 # logs file
 *.log
+
+# experiments directory contains test notebooks
+experiments/

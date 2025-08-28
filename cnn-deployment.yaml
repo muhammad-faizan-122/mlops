@@ -1,0 +1,20 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: cnn-fastapi-deployment
+spec:
+  replicas: 2
+  selector:
+    matchLabels:
+      app: cnn-fastapi
+  template:
+    metadata:
+      labels:
+        app: cnn-fastapi
+    spec:
+      containers:
+      - name: classifier-app
+        image: classifier:v1  # local Docker image
+        imagePullPolicy: Never 
+        ports:
+        - containerPort: 8000
