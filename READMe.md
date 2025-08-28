@@ -4,15 +4,6 @@ The goal of this project is to **build and deploy an image classifier API** usin
 
 ---
 
-## 🚀 Quick Test
-
-You can send an API request to the application running inside Minikube.
-Example screenshot:
-
-![Demo](test/demo1.png)
-
----
-
 ## 🛠️ Setup & Run Instructions
 
 ### ✅ Prerequisites
@@ -86,6 +77,26 @@ You can now make requests to the given URL to test your classifier!
 
 ---
 
+## 🚀 Quick Test
+
+You can send an API request to the application running inside Minikube.
+Example screenshot:
+
+![Demo](test/demo1.png)
+
+---
+
+## 🧪 Example API Request (Optional Section)
+
+If you have an example cURL or Python request, add it here:
+
+```bash
+curl -X POST http://<MINIKUBE-IP>:<PORT>/predict \
+    -F "file=@path_to_image.jpg"
+```
+
+---
+
 ## 📂 Project Folder Structure
 
 ```
@@ -123,17 +134,6 @@ You can now make requests to the given URL to test your classifier!
 │   ├── logger.cpython-310.pyc
 │   ├── main.cpython-310.pyc
 │   └── utils.cpython-310.pyc
-```
-
----
-
-## 🧪 Example API Request (Optional Section)
-
-If you have an example cURL or Python request, add it here:
-
-```bash
-curl -X POST http://<MINIKUBE-IP>:<PORT>/predict \
-    -F "file=@path_to_image.jpg"
 ```
 
 ---
