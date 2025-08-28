@@ -86,10 +86,6 @@ You can now make requests to the given URL to test your classifier!
 
 ---
 
-Thanks! Here's an updated **📂 Folder Structure** section for your README, based on the directory you provided. This version is clean, categorized, and easy to read:
-
----
-
 ## 📂 Project Folder Structure
 
 ```
